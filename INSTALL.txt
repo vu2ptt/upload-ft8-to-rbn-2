@@ -3,10 +3,10 @@ This is the conduit for uploading spots to the Reverse Beacon Network's servers.
 Also make sure you set up RBN Aggregator to listen to the UDP broadcast port you 
 select during the configuration below. 
 
-Download Pavel Demin's SD-card image zip-file for your Red Pitaya 122.88-16
+Download Pavel Demin's SD-card image zip-file for your PDSDR xc7020 SDR receiver
 and uncompress it into a folder. It can be found at:
 
-https://pavel-demin.github.io/red-pitaya-notes/sdr-transceiver-ft8/
+https://https://pavel-demin.github.io/qmtech-xc7z020-notes/sdr-receiver-ft8-77-76/
 
 Copy the content of the folder to a clean FAT32-formatted SD card.
 Do nothing more. Do not follow any other instructions on Demin's web page.
@@ -29,7 +29,7 @@ Install git
 
 Fetch installation package
 
-# git clone https://github.com/bjornekelund/upload-ft8-to-rbn-2
+# git clone https://github.com/vu2ptt/upload-ft8-to-rbn-2
 # cd upload-ft8-to-rbn-2
 
 Install the utilities for config cycling and RBN upload
@@ -63,7 +63,7 @@ file appears. When you are done, hit ctrl-C and log off
 # exit
 
 Should you want to understand/modify/build the upload-to-rbn utility, you may find 
-it on https://github.com/bjornekelund
+it on ttps://github.com/bjornekelund/upload-to-rbn
 
 To deinstall the additions and return to only reporting spots to pskreporter, do:
 

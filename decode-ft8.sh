@@ -1,7 +1,7 @@
 #! /bin/sh
 
 # Station parameters
-UDPPORT=2238
+UDPPORT=2267
 # End of station parameters
 
 JOBS=4
