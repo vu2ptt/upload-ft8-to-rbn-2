@@ -16,7 +16,7 @@ CONFIG=write-c2-files.cfg
 
 DECODER=/media/mmcblk0p1/apps/ft8d/ft8d
 
-SLEEP=$DIR/sleep-to-59
+SLEEP=/media/mmcblk0p1/apps/common_tools/sleep-to-59
 
 test $DIR/$CONFIG -ot $CONFIG || cp $DIR/$CONFIG $CONFIG
 
@@ -52,6 +52,6 @@ wait
 
 #echo `date --utc +"%Y-%m-%d %H:%M:%SZ"` "Uploading to RBN..."
 $DIR/upload-to-rbn $BROADCASTIP $UDPPORT decodes_$TIMESTAMP.txt
-echo "Upl:" `wc -l < decodes_$TIMESTAMP.txt`" spots @" `date --utc +"%h %d %H:%M:%SZ"`" to UDP Port: $UDPPORT"
+echo "Upl:" `wc -l < decodes_$TIMESTAMP.txt`" spots @" `date --utc +"%h %d %H:%M:%SZ"`" to $BROADCASTIP UDP Port: $UDPPORT"
 
 rm -f ft8_*_$TIMESTAMP.c2
