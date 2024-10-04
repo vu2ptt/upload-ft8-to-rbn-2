@@ -1,5 +1,5 @@
 # upload-ft8-to-rbn-2
-A set of scripts and utilities for uploading FT8 decodes 
+A set of scripts and utilities for uploading FT8 decodes based on original by SM7IUN 
 from a [PDSDR](https://pavel-demin.github.io/qmtech-xc7z020-notes/components/) based, 
 [multi-band FT8 receiver](https://pavel-demin.github.io/qmtech-xc7z020-notes/) 
 to the [Reverse Beacon Network](http://www.reversebeacon.net) via 
