@@ -21,9 +21,7 @@ in write-c2-files.cfg. This has been updated in the Telnet server perl script as
 
 bands = (
   { freq  =  1.841500; },
-  
   { freq  =  3.574500; },
-  
   { freq  =  5.358500; },
   { freq  =  7.057500; },
   { freq  =  7.075500; },
