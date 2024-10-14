@@ -11,14 +11,14 @@ https://https://pavel-demin.github.io/qmtech-xc7z020-notes/sdr-receiver-ft8-77-7
 Copy the content of the folder to a clean FAT32-formatted SD card.
 Do nothing more. Do not follow any other instructions on Demin's web page.
 
-SSH to the Red Pitaya. Default user name is "root", default password is "changeme".
+SSH to the QMTECH FT8 receiver. Default user name is "root", default password is "changeme".
 
 Semioptionally - change the password to something more secure
 
 # passwd
 
 Optionally - modify the welcome message to include the identity of 
-the Red Pitaya (e.g. "my FT8 skimmer").
+the receiver (e.g. "my FT8 skimmer").
 
 # nano /etc/motd
 
