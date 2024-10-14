@@ -52,6 +52,6 @@ wait
 
 #echo `date --utc +"%Y-%m-%d %H:%M:%SZ"` "Uploading to RBN..."
 $DIR/upload-to-rbn $BROADCASTIP $UDPPORT decodes_$TIMESTAMP.txt
-echo "Upl:" `wc -l < decodes_$TIMESTAMP.txt`" spots @" `date --utc +"%h %d %H:%M:%SZ"`" to $BROADCASTIP UDP Port: $UDPPORT"
+echo "Upl:" `wc -l < decodes_$TIMESTAMP.txt`" spots @" `date --utc +"%h %d %H:%M:%SZ"`" on $BROADCASTIP UDP port $UDPPORT"
 
 rm -f ft8_*_$TIMESTAMP.c2
