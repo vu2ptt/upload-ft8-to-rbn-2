@@ -16,3 +16,28 @@ Also contains a quick-and-dirty server in perl offering a DX
 Cluster like stream of spots via telnet on port 7373. 
 (Requires perl to be installed).
 
+In this version I have enabled 16 receiver slices in the FT8 receiver as configured 
+in write-c2-files.cfg. This has been updated in the Telnet server perl script as well.
+
+bands = (
+  { freq  =  1.841500; },
+  { freq  =  3.574500; },
+  { freq  =  5.358500; },
+  { freq  =  7.057500; },
+  { freq  =  7.075500; },
+  { freq  = 10.132500; },
+  { freq  = 10.137500; },
+  { freq  = 14.075500; },
+  { freq  = 18.096500; },
+  { freq  = 18.101500; },
+  { freq  = 21.075500; },
+  { freq  = 24.912500; },
+  { freq  = 24.916500; },
+  { freq  = 28.075500; },
+  { freq  = 50.314500; },
+  { freq  = 50.324500; }
+);
+
+73,
+
+Prasad VU2PTT.
