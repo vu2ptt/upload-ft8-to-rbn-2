@@ -38,9 +38,11 @@ Install the utilities for config cycling and RBN upload
 
 Configure your skimmer. Add grid, call, antenna information (for pskreporter), 
 broadcast IP port, etc. as required. 
+
 Enter your device's calibration factor in ppm (with one decimal and a decimal 
 point!). If you do not know your calibration factor, leave it at 0.0. More 
 information on calibration can be found on the calibration page of my website. 
+
 You may also want to modify the band selection to also include e.g. popular 
 Fox/Hound DX base frequencies such as 7056, 10131, and 14080kHz. (Keep in mind 
 that the frequency in the configuration file is the band center, i.e. 1.5kHz 
@@ -57,13 +59,13 @@ Check that we are in business
 
 # tail -F /dev/shm/decode-ft8.log
 
-Don't worry about an inital message that the file does not exist. Wait until the log 
+Don't worry about an initial message that the file does not exist. Wait until the log 
 file appears. When you are done, hit ctrl-C and log off
 
 # exit
 
 Should you want to understand/modify/build the upload-to-rbn utility, you may find 
-it on ttps://github.com/bjornekelund/upload-to-rbn
+it on https://github.com/vu2ptt/upload-to-rbn
 
 To deinstall the additions and return to only reporting spots to pskreporter, do:
 
