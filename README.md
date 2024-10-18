@@ -38,7 +38,7 @@ bands = (
   { freq  = 50.324500; }
 );
 
-The folder [image](https://github.com/vu2ptt/upload-ft8-to-rbn-2/tree/master/image) has a fully functional 32 GB image of the FT8 receiver hosted on my OneDrive. If using this, do not forget to change the Callsign and Grid location to match yours.
+The folder [image](https://github.com/vu2ptt/upload-ft8-to-rbn-2/tree/master/image) has a URL link to the fully functional 32 GB image of the FT8 receiver with UDP to Aggregator hosted on my OneDrive. If using this, do not forget to change the Callsign and Grid location to match yours.
 
 73,
 
