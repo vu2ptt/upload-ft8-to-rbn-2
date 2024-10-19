@@ -40,7 +40,7 @@ bands = (
 
 **IMAGE FILE:**
 =============
-The folder [image](https://github.com/vu2ptt/upload-ft8-to-rbn-2/tree/master/image) has a URL link to the fully functional 32 GB image of the FT8 receiver with UDP to Aggregator hosted on my OneDrive. If using this, **do not forget to change the Callsign and Grid location** to match yours in the file ~/apps/sdr_receiver_ft8_77_76/upload-ft8.sh on the SDcard.
+The folder [image](https://github.com/vu2ptt/upload-ft8-to-rbn-2/tree/master/image) has a URL link to the fully functional 32 GB image of the FT8 receiver with UDP to Aggregator hosted on my OneDrive. If you use this image, **do not forget to change the Callsign and Grid location** to match yours in the file ~/apps/sdr_receiver_ft8_77_76/upload-ft8.sh on the SDcard.
 
 I use [ImageUSB from PassMark](https://www.osforensics.com/tools/write-usb-images.html) to make SD cards and images. 
 
