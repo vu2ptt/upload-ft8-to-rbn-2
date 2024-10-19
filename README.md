@@ -9,7 +9,7 @@ with the spots are determined by the settings in RBN Aggregator.
 
 Based on the GitHub [upload-to-rbn](https://github.com/bjornekelund/upload-to-rbn) utility by Bjorn SM7IUN. Additional information on his original version is [here](https://sm7iun.ekelund.nu/redpitaya/ft8skimmer). 
 
-Contains a shell script (`temp.sh`) which is installed in the home
+Contains a shell script [temp.sh](https://github.com/vu2ptt/upload-ft8-to-rbn-2/blob/master/temp.sh) which is installed in the home
 folder to check the operating temperature of the Zynq 7020 SoC. 
 
 Also contains a quick-and-dirty server in perl offering a DX 
