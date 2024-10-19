@@ -6,8 +6,8 @@ to the [Reverse Beacon Network](http://www.reversebeacon.net) via
 [RBN Aggregator](http://www.reversebeacon.net/pages/Aggregator+34). 
 Although grid is set in the script, call sign and grid associated 
 with the spots are determined by the settings in RBN Aggregator. 
-Based on the GitHub [upload-to-rbn] for QMTECH PDSDR (https://github.com/vu2ptt/upload-to-rbn) 
-utility. Additional information [here](https://sm7iun.ekelund.nu/redpitaya/ft8skimmer). 
+
+Based on the GitHub [upload-to-rbn](https://github.com/bjornekelund/upload-to-rbn) utility by Bjorn SM7IUN. Additional information on his original version is [here](https://sm7iun.ekelund.nu/redpitaya/ft8skimmer). 
 
 Contains a shell script (`temp.sh`) which is installed in the home
 folder to check the operating temperature of the Zynq 7020 SoC. 
