@@ -43,17 +43,25 @@ Enter your device's calibration factor in ppm (with one decimal and a decimal
 point!). If you do not know your calibration factor, leave it at 0.0. More 
 information on calibration can be found on the calibration page of my website. 
 
-You may also want to modify the band selection to also include e.g. popular 
+This install.sh script also replaces the file write-c2-files.cfg to implement 
+16 band slices to be monitored - this includes some of the popular expedition
+frequencies.
+
+You may also want to modify this band selection to also include or remove 
+band slices yo may need specifically. If using the telnet.pl scrip make sure 
+to change the corresponding band ranges in that file as well. e.g. popular 
 Fox/Hound DX base frequencies such as 7056, 10131, and 14080kHz. (Keep in mind 
 that the frequency in the configuration file is the band center, i.e. 1.5kHz 
 above the base frequency.) This is done by adding/commenting/uncommenting the 
 corresponding lines. If you do this, make sure you do not exceed 16 bands and
-also keep an eye on the commas for correct syntax. Exit the editor for each of 
+also keep an eye on the commas for correct syntax. 
+
+# ./config.sh
+
+Exit the editor after running this config.pl script for each of 
 the three files with Ctrl-S Ctrl-X. Run the script to the end. Do not exit 
 prematurely with e.g. Ctrl-C. The receiver will automatically start when 
 the configuration is completed.
-
-# ./config.sh
 
 Check that we are in business
 
@@ -67,7 +75,8 @@ file appears. When you are done, hit ctrl-C and log off
 Should you want to understand/modify/build the upload-to-rbn utility, you may find 
 it on https://github.com/vu2ptt/upload-to-rbn
 
-To deinstall the additions and return to only reporting spots to pskreporter, do:
+To deinstall the additions and modificatons to band slices and return to only 
+reporting spots to pskreporter, do:
 
 # cd ~/upload-ft8-to-rbn-2
 # ./deinstall.sh
