@@ -16,8 +16,8 @@ Also contains a quick-and-dirty server in perl offering a DX
 Cluster like stream of spots via telnet on port 7373. 
 (Requires perl to be installed).
 
-# apk update
-# apk add perl
+> apk update
+> apk add perl
 
 In this version I have enabled 16 receiver slices in the FT8 receiver as configured 
 in write-c2-files.cfg. This has been updated in the Telnet server perl script as well.
