@@ -63,6 +63,10 @@ the three files with Ctrl-S Ctrl-X. Run the script to the end. Do not exit
 prematurely with e.g. Ctrl-C. The receiver will automatically start when 
 the configuration is completed.
 
+The UDP port currently configure is 2267 in the file decode-ft8.sh, please change 
+this if required and enable this UDP port in Aggregator's FT# tab to upload the FT8 
+spots to RBN.
+
 Check that we are in business
 
 # tail -F /dev/shm/decode-ft8.log
