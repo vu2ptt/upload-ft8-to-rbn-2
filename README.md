@@ -9,6 +9,8 @@ with the spots are determined by the settings in RBN Aggregator.
 
 Based on the GitHub [upload-to-rbn](https://github.com/bjornekelund/upload-to-rbn) utility by Bjorn SM7IUN. Additional information on his original version is [here](https://sm7iun.ekelund.nu/redpitaya/ft8skimmer). 
 
+NOTE: The UDP port currently configure is 2267 in the file decode-ft8.sh, please change this if required and enable this UDP port in Aggregator's FT# tab to upload the FT8 spots to RBN.
+
 Contains a shell script [temp.sh](https://github.com/vu2ptt/upload-ft8-to-rbn-2/blob/master/temp.sh) which is installed in the home
 folder to check the operating temperature of the Zynq 7020 SoC. 
 
